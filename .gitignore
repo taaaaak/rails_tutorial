@@ -37,3 +37,6 @@ yarn-debug.log*
 
 # Ignore Spring files.
 /spring/*.pid
+
+# Asset Pipelineを使わないので退避
+app/assets/stylesheets/
