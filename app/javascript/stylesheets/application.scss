@@ -1,5 +1,9 @@
 @import './bootstrap_custom.scss';
 
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
 /* universal */
 
 body {
@@ -96,4 +100,17 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+/* miscellaneous */
+
+.debug_dump {
+  background: $gray-medium-light;
+  border: thin solid lightgray;
+  border-radius: 0.5em;
+  padding: 7px;
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
 }
